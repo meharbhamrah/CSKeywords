@@ -70,7 +70,7 @@
 **Commonly Used Linux Commands:**
 - A set of essential commands for file and directory operations, file permissions, system information, text processing, package management, and process management in a Linux environment.
 
- ### File and Directory Operations: 
+ **File and Directory Operations:** 
  - `ls`: List directory contents 
  - `cd`: Change directory 
  - `pwd`: Print working directory 
@@ -79,29 +79,29 @@
  - `mv`: Move or rename files or directories 
  - `cp`: Copy files or directories 
   
- ### File Permissions: 
+ **File Permissions:**
  - `chmod`: Change file permissions 
  - `chown`: Change file or directory ownership 
   
- ### System Information: 
+ **System Information:**
  - `top`: Display system processes 
  - `df`: Display disk space usage 
  - `du`: Estimate file and directory space usage 
  - `free`: Display amount of free and used memory in the system 
   
- ### Text Processing: 
+ **Text Processing:**
  - `cat`: Concatenate and display file content 
  - `grep`: Search text using patterns 
  - `sed`: Stream editor for text manipulation 
  - `awk`: Text processing tool for data extraction 
   
- ### Package Management (Debian/Ubuntu): 
+ **Package Management (Debian/Ubuntu):**
  - `apt-get`: APT package handling utility (Debian/Ubuntu) 
   
- ### Package Management (Red Hat/CentOS): 
+ **Package Management (Red Hat/CentOS):**
  - `yum`: Package manager (Red Hat/CentOS) 
   
- ### Process Management: 
+ **Process Management:**
  - `ps`: Display information about running processes 
  - `kill`: Terminate processes by process ID 
 
