@@ -1,76 +1,76 @@
-**Desktop Computing:**
+## Desktop Computing: 
 - Computation: The process of performing calculations and operations on a computer to process data and perform tasks.
 - Storage: The capability to store and retain data, files, and information on computer systems, either locally or in the cloud.
 - Network: A collection of interconnected devices that can share resources and communicate, including LANs (Local Area Networks) and WANs (Wide Area Networks).
 
-**Hardware Units:**
+## Hardware Units: 
 - CPU (Central Processing Unit): The primary hardware component responsible for executing instructions and performing calculations in a computer.
 - GPU (Graphics Processing Unit): A specialized hardware component optimized for rendering graphics and handling parallel processing tasks.
 - DPU (Data Processing Unit): Hardware designed for accelerating data processing tasks, including data compression and encryption.
 - TPU (Tensor Processing Unit): A specialized hardware unit for accelerating machine learning and neural network computations.
 
-**Computer Architectures:**
+## Computer Architectures: 
 - CISC (Complex Instruction Set Computer): A computer architecture with a diverse and extensive set of instructions, which can make it more versatile but sometimes less efficient.
 - RISC (Reduced Instruction Set Computer): A computer architecture that uses a simplified and optimized set of instructions to improve performance.
 - RISC-V (Open Source RISC Variant): An open-source RISC architecture, allowing for customization and flexibility.
 - Embedded Systems: Computer systems integrated into devices or machines for dedicated functions, such as IoT devices and industrial controllers.
 
-**Kernel and Operating Systems:**
+## Kernel and Operating Systems: 
 - Kernel: The core component of an operating system that manages hardware resources and enables communication between software applications and hardware.
 - Operating Systems: Software that manages computer hardware, provides user interfaces, and supports running applications and processes.
 
-**Linux:**
+## Linux: 
 - Debian and RHEL Linux Families: Two popular Linux distributions, with Debian known for its open-source approach and RHEL (Red Hat Enterprise Linux) for its enterprise support.
 - Package Manager (Yum): A package management tool used in RHEL-based distributions to install, update, and manage software packages.
 - IBM's Ownership of Red Hat: IBM's acquisition of Red Hat, a significant move in the open-source and enterprise software space.
 
-**Networking:**
+## Networking: 
 - Internet (WAN - Wide Area Network): A global network that connects computers and networks across the world, enabling data and information exchange.
 - Intranet (LAN - Local Area Network): A localized network within an organization that facilitates communication and resource sharing among connected devices.
 
-**Cloud Computing:**
+## Cloud Computing: 
 - IP Addresses: Unique numerical identifiers assigned to devices on a network, including Private IP Addresses for internal network use and Public IP Addresses for external communication.
 - DNS (Domain Name System): A system that translates domain names (e.g., www.example.com) into IP addresses for routing and connectivity.
 - Routing: The process of determining the best path for data to travel in a network, often based on routing protocols and network topology.
 
-**Virtualization:**
+## Virtualization: 
 - Bare Metal Servers: Physical servers that run directly on hardware without an underlying host operating system.
 - Dual Boot Systems: Computers capable of running two different operating systems and allowing users to choose which one to use.
 - Hypervisors (Type-1 and Type-2): Software or hardware that enables the creation and management of virtual machines (VMs), with Type-1 running directly on hardware and Type-2 running on an existing operating system.
 - VMware: A leading provider of virtualization and cloud computing software solutions.
 
-**Cloud Computing Providers:**
+## Cloud Computing Providers: 
 - AWS (Amazon Web Services): A prominent cloud computing provider offering a wide range of cloud services, including computing, storage, and more.
 - Azure (Microsoft): Microsoft's cloud platform offering infrastructure, platform, and software services for cloud-based solutions.
 - GCP (Google Cloud Platform): Google's cloud computing platform, providing cloud services and solutions for various applications and industries.
 
-**Security:**
+## Security: 
 - GDPR (General Data Protection Regulation): European regulations governing data protection and privacy, with strict requirements for handling personal data.
 - HTTPS (HTTP Secure): A secure version of the HTTP protocol that encrypts data exchanged between a web browser and a web server.
 - SSL (Secure Socket Layer) and TLS (Transport Layer Security): Protocols that secure communication by encrypting data between two endpoints.
 - Cryptography and Post-Cryptography: The science and techniques of secure communication and data protection, both during transmission and while stored.
 
-**Networking and Protocols:**
+## Networking and Protocols: 
 - OSI Model (7 Layers): A conceptual framework for understanding network communication, divided into seven layers, including Physical, Data Link, Network, Transport, Session, Presentation, and Application layers.
 - TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of protocols used for internet communication, with TCP managing data transfer reliability and IP handling addressing and routing.
 - URL (Uniform Resource Locator): A standardized web address format used to identify resources on the internet.
 - Ports and Packets: Elements of network communication, where ports are specific endpoints for communication, and packets are units of data transmitted over a network.
 - Load Balancing: A technique that distributes network traffic evenly across multiple servers to improve performance, availability, and reliability.
 
-**Computer Architecture:**
+## Computer Architecture: 
 - Von Neumann vs. Harvard Architecture: Two distinct computer architectural models, with Von Neumann using a unified memory space for data and instructions and Harvard using separate memory spaces for instructions and data.
 - FPGA (Field-Programmable Gate Array): Hardware that can be configured and reconfigured for specific tasks, often used in custom computing solutions.
 - ASICs (Application-Specific Integrated Circuits): Custom-designed integrated circuits optimized for specific functions or applications.
 
-**Programming:**
+## Programming: 
 - Object-Oriented Programming (OOP): A programming paradigm based on the concept of objects, encapsulation, inheritance, and polymorphism to create modular and maintainable code.
 - IDE (Integrated Development Environment): Software that provides a comprehensive environment for coding, debugging, and managing software projects.
 - C, C++, Rust: Programming languages used for various applications, with C and C++ known for system-level programming and Rust for safe and concurrent programming.
 
-**Commonly Used Linux Commands:**
+## Commonly Used Linux Commands: 
 - A set of essential commands for file and directory operations, file permissions, system information, text processing, package management, and process management in a Linux environment.
 
- **File and Directory Operations:** 
+ ***File and Directory Operations:***  
  - `ls`: List directory contents 
  - `cd`: Change directory 
  - `pwd`: Print working directory 
@@ -79,55 +79,55 @@
  - `mv`: Move or rename files or directories 
  - `cp`: Copy files or directories 
   
- **File Permissions:**
+ ***File Permissions:*** 
  - `chmod`: Change file permissions 
  - `chown`: Change file or directory ownership 
   
- **System Information:**
+ ***System Information:*** 
  - `top`: Display system processes 
  - `df`: Display disk space usage 
  - `du`: Estimate file and directory space usage 
  - `free`: Display amount of free and used memory in the system 
   
- **Text Processing:**
+ ***Text Processing:*** 
  - `cat`: Concatenate and display file content 
  - `grep`: Search text using patterns 
  - `sed`: Stream editor for text manipulation 
  - `awk`: Text processing tool for data extraction 
   
- **Package Management (Debian/Ubuntu):**
+ ***Package Management (Debian/Ubuntu):*** 
  - `apt-get`: APT package handling utility (Debian/Ubuntu) 
   
- **Package Management (Red Hat/CentOS):**
+ ***Package Management (Red Hat/CentOS):***
  - `yum`: Package manager (Red Hat/CentOS) 
   
- **Process Management:**
+ ***Process Management:***
  - `ps`: Display information about running processes 
  - `kill`: Terminate processes by process ID 
 
-**Blockchain and Cryptocurrency:**
+## Blockchain and Cryptocurrency: 
 - Blockchain Technology: A decentralized ledger technology used for secure and transparent data recording.
 - Satoshi Nakamoto: The pseudonymous creator of Bitcoin, the first cryptocurrency.
 - ICO (Initial Coin Offering): A method of fundraising for blockchain projects, where tokens or coins are sold to investors to raise capital.
 
-**Network and Security:**
+## Network and Security:
 - NAT (Network Address Translation): A technique that maps private IP addresses to a single public IP address to allow multiple devices to share the same public IP.
 - Router: A network device that forwards data packets between computer networks and directs traffic based on IP addresses.
 - Firewall: A network security device or software that filters and controls incoming and outgoing network traffic to protect a network from unauthorized access and threats.
 
-**Software Development:**
+## Software Development:
 - Compiler vs. Interpreter: Compiler translates the entire source code into machine code at once, while an interpreter translates code line by line and executes it.
 - Scheduling: The process of managing and prioritizing tasks in a computer system to optimize resource utilization.
 - Firmware: Software embedded in hardware devices that controls their operation and behavior.
 
-**Cloud Services:**
+## Cloud Services:
 - IaaS, PaaS, SaaS: Different cloud service models - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
 - Public, Private, Hybrid Clouds: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
 
-**Linux Directory Structure:**
+## Linux Directory Structure:
 - The organization of directories in a Linux-based file system, including /bin, /sbin, /etc, /dev, /proc, /var, /tmp, /usr, /home, /boot, /lib, /opt, /mnt, /media, /srv.
 
-  ## Other Terms: 
+## Other Terms: 
 - Port Numbers (HTTP, HTTPS, FTP, SMTP, Telnet, SSH): Port Numbers are like specific doors in a building where data goes in and out. For example, HTTP uses Port 80, HTTPS uses Port 443, FTP uses Port 21, SMTP uses Port 25, Telnet uses Port 23, and SSH uses Port 22.
 
 - Seven Layers of OSI Model: The OSI Model divides network communication into seven layers. Think of it as a cake with seven layers, each having a specific role. These layers help devices communicate over networks by breaking the process into manageable parts.
