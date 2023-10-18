@@ -14,6 +14,7 @@
 - RISC (Reduced Instruction Set Computer): A computer architecture that uses a simplified and optimized set of instructions to improve performance.
 - RISC-V (Open Source RISC Variant): An open-source RISC architecture, allowing for customization and flexibility.
 - Embedded Systems: Computer systems integrated into devices or machines for dedicated functions, such as IoT devices and industrial controllers.
+- Firmware: Firmware is like the DNA of a device. It's software permanently programmed into hardware, like the instructions for your TV remote.
 
 ## Kernel and Operating Systems: 
 - Kernel: The core component of an operating system that manages hardware resources and enables communication between software applications and hardware.
@@ -23,10 +24,7 @@
 - Debian and RHEL Linux Families: Two popular Linux distributions, with Debian known for its open-source approach and RHEL (Red Hat Enterprise Linux) for its enterprise support.
 - Package Manager (Yum): A package management tool used in RHEL-based distributions to install, update, and manage software packages.
 - IBM's Ownership of Red Hat: IBM's acquisition of Red Hat, a significant move in the open-source and enterprise software space.
-
-## Networking: 
-- Internet (WAN - Wide Area Network): A global network that connects computers and networks across the world, enabling data and information exchange.
-- Intranet (LAN - Local Area Network): A localized network within an organization that facilitates communication and resource sharing among connected devices.
+- Cgroups: Cgroups are like fences for processes. They help manage and limit resources (like CPU and memory) for running processes in a Linux system.
 
 ## Cloud Computing: 
 - IP Addresses: Unique numerical identifiers assigned to devices on a network, including Private IP Addresses for internal network use and Public IP Addresses for external communication.
@@ -38,6 +36,8 @@
 - Dual Boot Systems: Computers capable of running two different operating systems and allowing users to choose which one to use.
 - Hypervisors (Type-1 and Type-2): Software or hardware that enables the creation and management of virtual machines (VMs), with Type-1 running directly on hardware and Type-2 running on an existing operating system.
 - VMware: A leading provider of virtualization and cloud computing software solutions.
+- KVM: KVM is like a virtual theater for computers. It's a virtualization solution for running multiple operating systems on a single host.
+- Xen: Xen is like an usher at a theater, directing performances (virtual machines). It's an open-source hypervisor for virtualization.
 
 ## Cloud Computing Providers: 
 - AWS (Amazon Web Services): A prominent cloud computing provider offering a wide range of cloud services, including computing, storage, and more.
@@ -49,13 +49,13 @@
 - HTTPS (HTTP Secure): A secure version of the HTTP protocol that encrypts data exchanged between a web browser and a web server.
 - SSL (Secure Socket Layer) and TLS (Transport Layer Security): Protocols that secure communication by encrypting data between two endpoints.
 - Cryptography and Post-Cryptography: The science and techniques of secure communication and data protection, both during transmission and while stored.
-
-## Networking and Protocols: 
-- OSI Model (7 Layers): A conceptual framework for understanding network communication, divided into seven layers, including Physical, Data Link, Network, Transport, Session, Presentation, and Application layers.
-- TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of protocols used for internet communication, with TCP managing data transfer reliability and IP handling addressing and routing.
-- URL (Uniform Resource Locator): A standardized web address format used to identify resources on the internet.
-- Ports and Packets: Elements of network communication, where ports are specific endpoints for communication, and packets are units of data transmitted over a network.
-- Load Balancing: A technique that distributes network traffic evenly across multiple servers to improve performance, availability, and reliability.
+- TLS (Transport Layer Security): Think of TLS as a secret handshake for your data. It encrypts and secures information sent between your web browser and a website, keeping it private.
+- IAM (Identity and Access Management): IAM is like a bouncer at a club. It decides who can enter and what they can do. In the digital world, it controls who can access what in a system.
+- Homomorphic Encryption: Homomorphic encryption is like a locked safe that you can perform operations on even without unlocking it. It's a way to process encrypted data while it remains secure.
+- SSO - Single Sign-On: SSO is like having a master key to multiple doors. With one login, you can access different systems and applications without entering your credentials every time.
+- DID - Digital Identity: DID is like a digital ID card that you carry online. It's a way to securely prove who you are in the digital world.
+- Zero Knowledge: Zero knowledge is like proving you have the answer without revealing the answer itself. It's a cryptographic technique for secure authentication.
+- Firewall: A network security device or software that filters and controls incoming and outgoing network traffic to protect a network from unauthorized access and threats.
 
 ## Computer Architecture: 
 - Von Neumann vs. Harvard Architecture: Two distinct computer architectural models, with Von Neumann using a unified memory space for data and instructions and Harvard using separate memory spaces for instructions and data.
@@ -110,16 +110,6 @@
 - Satoshi Nakamoto: The pseudonymous creator of Bitcoin, the first cryptocurrency.
 - ICO (Initial Coin Offering): A method of fundraising for blockchain projects, where tokens or coins are sold to investors to raise capital.
 
-## Network and Security:
-- NAT (Network Address Translation): A technique that maps private IP addresses to a single public IP address to allow multiple devices to share the same public IP.
-- Router: A network device that forwards data packets between computer networks and directs traffic based on IP addresses.
-- Firewall: A network security device or software that filters and controls incoming and outgoing network traffic to protect a network from unauthorized access and threats.
-
-## Software Development:
-- Compiler vs. Interpreter: Compiler translates the entire source code into machine code at once, while an interpreter translates code line by line and executes it.
-- Scheduling: The process of managing and prioritizing tasks in a computer system to optimize resource utilization.
-- Firmware: Software embedded in hardware devices that controls their operation and behavior.
-
 ## Cloud Services:
 - IaaS, PaaS, SaaS: Different cloud service models - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
 - Public, Private, Hybrid Clouds: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
@@ -128,24 +118,14 @@
 - The organization of directories in a Linux-based file system, including /bin, /sbin, /etc, /dev, /proc, /var, /tmp, /usr, /home, /boot, /lib, /opt, /mnt, /media, /srv.
 
 ## Other Terms: 
-
-- Firmware: Firmware is like the DNA of a device. It's software permanently programmed into hardware, like the instructions for your TV remote.
-
-- TLS (Transport Layer Security): Think of TLS as a secret handshake for your data. It encrypts and secures information sent between your web browser and a website, keeping it private.
-
+  
 - Stack Data Structure: A stack is like a stack of books. You can only add or remove books from the top. It's a way to manage data where the last item added is the first to be used.
 
-- IAM (Identity and Access Management): IAM is like a bouncer at a club. It decides who can enter and what they can do. In the digital world, it controls who can access what in a system.
-
-- nginx (Proxy Server): nginx is like a waiter at a restaurant. It takes your order (web request) and brings you the food (web content). It's a web server that also acts as a proxy to help manage internet traffic.
-
-- Apache (Web Server): Apache is like a chef in a restaurant kitchen. It prepares and serves web content. It's one of the most popular web servers used to deliver websites.
-
-- UDP (User Datagram Protocol): UDP is like sending a postcard. It's fast but doesn't guarantee delivery. It's used for quick, real-time communication where some data loss is acceptable.
-
 - Packets: Packets are like small packages of data. Information is broken into packets for transmission over networks, and these packets are reassembled at their destination.
+  
+- Compiler vs. Interpreter: Compiler translates the entire source code into machine code at once, while an interpreter translates code line by line and executes it.
 
-- Load Balancing: Load balancing is like distributing the weight evenly on a scale. It ensures that network traffic is spread across multiple servers to improve performance and reliability.
+- Scheduling: The process of managing and prioritizing tasks in a computer system to optimize resource utilization.
 
 - MERN: MERN is an abbreviation for a technology stack used in web development. It includes MongoDB (a database), Express.js (a web application framework), React (a JavaScript library for user interfaces), and Node.js (a runtime for executing JavaScript).
 
@@ -154,14 +134,6 @@
 - Hashing: Hashing is like turning a message into a unique fingerprint. It's a one-way process that converts data into a fixed-size string of characters.
 
 - Arrays and Structures: Arrays are like lists of items, and structures are like custom containers that can hold different types of data. They help organize and store information in programming.
-
-- Homomorphic Encryption: Homomorphic encryption is like a locked safe that you can perform operations on even without unlocking it. It's a way to process encrypted data while it remains secure.
-
-- HA - High Availability: High Availability means a system that's always ready to work. It's like having a backup generator that kicks in if the power goes out, ensuring minimal downtime.
-
-- SSO - Single Sign-On: SSO is like having a master key to multiple doors. With one login, you can access different systems and applications without entering your credentials every time.
-
-- DID - Digital Identity: DID is like a digital ID card that you carry online. It's a way to securely prove who you are in the digital world.
 
 - India Stack: India Stack is like a digital infrastructure for the country. It includes tools for identity verification, payments, and more to promote digital services in India.
 
@@ -183,19 +155,9 @@
 
 - Linux Foundation: The Linux Foundation is like a library for open-source knowledge. It's an organization that supports and promotes open-source projects, including the Linux operating system.
 
-- CNCF: CNCF is like a club for cloud-native techies. It stands for the Cloud Native Computing Foundation and hosts open-source projects for cloud-native applications.
-
-- Zero Knowledge: Zero knowledge is like proving you have the answer without revealing the answer itself. It's a cryptographic technique for secure authentication.
-
-- Cgroups: Cgroups are like fences for processes. They help manage and limit resources (like CPU and memory) for running processes in a Linux system.
-
 - Hyper-converged infrastructure (HCI): HCI is like a Swiss Army knife for data centers. It combines storage, computing, and networking into one integrated system for efficient data management.
 
 - Web Assembly (Wasm): Web Assembly is like a universal translator for web browsers. It's a binary instruction format that enables high-performance web applications across different platforms.
-
-- KVM: KVM is like a virtual theater for computers. It's a virtualization solution for running multiple operating systems on a single host.
-
-- Xen: Xen is like an usher at a theater, directing performances (virtual machines). It's an open-source hypervisor for virtualization.
 
 ## Docker
 
@@ -248,7 +210,13 @@
 - Cloud Service Models: Cloud service models include Infrastructure as a Service (IaaS), which provides basic computing resources; Platform as a Service (PaaS), offering a platform for app development; and Software as a Service (SaaS), delivering software applications over the internet.
 
 - Hybrid Cloud: A hybrid cloud combines private and public clouds, allowing data and applications to be shared between them for flexibility and control.
+  
+- Load Balancing: Load balancing is like distributing the weight evenly on a scale. It ensures that network traffic is spread across multiple servers to improve performance and reliability.
 
+- CNCF: CNCF is like a club for cloud-native techies. It stands for the Cloud Native Computing Foundation and hosts open-source projects for cloud-native applications.
+
+- HA - High Availability: High Availability means a system that's always ready to work. It's like having a backup generator that kicks in if the power goes out, ensuring minimal downtime.
+  
 - IaaS, PaaS, SaaS: IaaS offers virtualized computing resources; PaaS provides a platform for app development; SaaS offers software applications accessible over the internet.
 
 - Cloud Security: Cloud security involves measures and tools to protect data, applications, and infrastructure in cloud environments from threats and unauthorized access.
@@ -299,7 +267,21 @@
 
 - Network Topology: Network topology represents how network devices are interconnected, aiding in network design and management.
 
-## Networking
+## Networking and Protocols: 
+- OSI Model (7 Layers): A conceptual framework for understanding network communication, divided into seven layers, including Physical, Data Link, Network, Transport, Session, Presentation, and Application layers.
+  
+- TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of protocols used for internet communication, with TCP managing data transfer reliability and IP handling addressing and routing.
+  
+- URL (Uniform Resource Locator): A standardized web address format used to identify resources on the internet.
+  
+- Ports and Packets: Elements of network communication, where ports are specific endpoints for communication, and packets are units of data transmitted over a network.
+
+- Load Balancing: A technique that distributes network traffic evenly across multiple servers to improve performance, availability, and reliability.
+  
+- Internet (WAN - Wide Area Network): A global network that connects computers and networks across the world, enabling data and information exchange.
+  
+- Intranet (LAN - Local Area Network): A localized network within an organization that facilitates communication and resource sharing among connected devices.
+  
 - Port Numbers (HTTP, HTTPS, FTP, SMTP, Telnet, SSH): Port Numbers are like specific doors in a building where data goes in and out. For example, HTTP uses Port 80, HTTPS uses Port 443, FTP uses Port 21, SMTP uses Port 25, Telnet uses Port 23, and SSH uses Port 22.
 
 - Seven Layers of OSI Model: The OSI Model divides network communication into seven layers. Think of it as a cake with seven layers, each having a specific role. These layers help devices communicate over networks by breaking the process into manageable parts.
@@ -312,6 +294,10 @@
 
 - Subnet Masks: Subnet masks divide IP addresses into network and host portions.
 
+- NAT (Network Address Translation): A technique that maps private IP addresses to a single public IP address to allow multiple devices to share the same public IP.
+  
+- Router: A network device that forwards data packets between computer networks and directs traffic based on IP addresses.
+
 - Router Functions: Routers manage traffic between different networks, ensuring data reaches its destination.
 
 - Firewall Security: Firewalls control incoming and outgoing network traffic to protect against unauthorized access and threats.
@@ -323,6 +309,12 @@
 - OSI Layers: The OSI model is a conceptual framework with seven layers, each with specific roles in network communication.
 
 - VPN Connections: VPN connections provide secure and private communication over a public network.
+  
+- nginx (Proxy Server): nginx is like a waiter at a restaurant. It takes your order (web request) and brings you the food (web content). It's a web server that also acts as a proxy to help manage internet traffic.
+
+- Apache (Web Server): Apache is like a chef in a restaurant kitchen. It prepares and serves web content. It's one of the most popular web servers used to deliver websites.
+
+- UDP (User Datagram Protocol): UDP is like sending a postcard. It's fast but doesn't guarantee delivery. It's used for quick, real-time communication where some data loss is acceptable.
 
 - BGP Protocol: BGP is a routing protocol used for exchanging routing information between different networks.
 
