@@ -128,13 +128,6 @@
 - The organization of directories in a Linux-based file system, including /bin, /sbin, /etc, /dev, /proc, /var, /tmp, /usr, /home, /boot, /lib, /opt, /mnt, /media, /srv.
 
 ## Other Terms: 
-- Port Numbers (HTTP, HTTPS, FTP, SMTP, Telnet, SSH): Port Numbers are like specific doors in a building where data goes in and out. For example, HTTP uses Port 80, HTTPS uses Port 443, FTP uses Port 21, SMTP uses Port 25, Telnet uses Port 23, and SSH uses Port 22.
-
-- Seven Layers of OSI Model: The OSI Model divides network communication into seven layers. Think of it as a cake with seven layers, each having a specific role. These layers help devices communicate over networks by breaking the process into manageable parts.
-
-- NAT (Network Address Translation): NAT is like a magic trick that lets multiple devices in your home share one public IP address. It's like having a translator that helps them talk to the internet.
-
-- Router: A router is like a traffic cop for data. It decides where data should go within a network and also directs data between your home network and the internet.
 
 - Firmware: Firmware is like the DNA of a device. It's software permanently programmed into hardware, like the instructions for your TV remote.
 
@@ -307,7 +300,14 @@
 - Network Topology: Network topology represents how network devices are interconnected, aiding in network design and management.
 
 ## Networking
+- Port Numbers (HTTP, HTTPS, FTP, SMTP, Telnet, SSH): Port Numbers are like specific doors in a building where data goes in and out. For example, HTTP uses Port 80, HTTPS uses Port 443, FTP uses Port 21, SMTP uses Port 25, Telnet uses Port 23, and SSH uses Port 22.
 
+- Seven Layers of OSI Model: The OSI Model divides network communication into seven layers. Think of it as a cake with seven layers, each having a specific role. These layers help devices communicate over networks by breaking the process into manageable parts.
+
+- NAT (Network Address Translation): NAT is like a magic trick that lets multiple devices in your home share one public IP address. It's like having a translator that helps them talk to the internet.
+
+- Router: A router is like a traffic cop for data. It decides where data should go within a network and also directs data between your home network and the internet.
+  
 - IP Addressing: IP addressing assigns unique numerical addresses to devices on a network.
 
 - Subnet Masks: Subnet masks divide IP addresses into network and host portions.
