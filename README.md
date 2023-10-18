@@ -3,12 +3,17 @@
 - Storage: The capability to store and retain data, files, and information on computer systems, either locally or in the cloud.
 - Network: A collection of interconnected devices that can share resources and communicate, including LANs (Local Area Networks) and WANs (Wide Area Networks).
 - Distributed Computing: A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another
+- Computability is the ability to solve a problem in an effective manner.
+- In computer organisation, the memory hierarchy separates computer storage into a hierarchy based on response time.
+- The BIOS (Basic Input/Output System) is firmware in a computer that initializes and manages hardware components during startup. It provides essential instructions for the operating system to take over and is responsible for tasks like booting the computer and configuring hardware settings.
+- In computing, a device driver is a computer program that operates or controls a particular type of device that is attached to a computer or automaton.
 
 ## Hardware Units: 
 - CPU (Central Processing Unit): The primary hardware component responsible for executing instructions and performing calculations in a computer.
 - GPU (Graphics Processing Unit): A specialized hardware component optimized for rendering graphics and handling parallel processing tasks.
 - DPU (Data Processing Unit): Hardware designed for accelerating data processing tasks, including data compression and encryption.
 - TPU (Tensor Processing Unit): A specialized hardware unit for accelerating machine learning and neural network computations.
+- A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals
 
 ## Computer Architectures: 
 - CISC (Complex Instruction Set Computer): A computer architecture with a diverse and extensive set of instructions, which can make it more versatile but sometimes less efficient.
@@ -17,9 +22,12 @@
 - Embedded Systems: Computer systems integrated into devices or machines for dedicated functions, such as IoT devices and industrial controllers.
 - Firmware: Firmware is like the DNA of a device. It's software permanently programmed into hardware, like the instructions for your TV remote.
 
+
 ## Kernel and Operating Systems: 
 - Kernel: The core component of an operating system that manages hardware resources and enables communication between software applications and hardware.
+- A monolithic kernel is an operating system architecture where the entire operating system is working in kernel space.
 - Operating Systems: Software that manages computer hardware, provides user interfaces, and supports running applications and processes.
+- A microkernel is an operating system architecture where core services like process management and communication are kept minimal, with other functions implemented as separate modules or user-level processes. This design promotes modularity and reduces the risk of system failures affecting the entire OS.
 
 ## Linux: 
 - Debian and RHEL Linux Families: Two popular Linux distributions, with Debian known for its open-source approach and RHEL (Red Hat Enterprise Linux) for its enterprise support.
@@ -40,6 +48,7 @@
   - Xen
   - ESX
   - LXC
+
    ![300px-Libvirt_support svg](https://github.com/meharbhamrah/CSKeywords/assets/143251459/499e056f-1272-451f-875a-f0ffdd7e511f)
 
 ## Cloud Computing Providers: 
@@ -70,6 +79,7 @@
 - IDE (Integrated Development Environment): Software that provides a comprehensive environment for coding, debugging, and managing software projects.
 - C, C++, Rust: Programming languages used for various applications, with C and C++ known for system-level programming and Rust for safe and concurrent programming.
 - Rust: Rust is like a new kind of tool in a toolbox. It's a modern programming language known for its safety and performance features.
+- HCL (HashiCorp Configuration Language) is a configuration language designed for infrastructure automation.
 
 ## Commonly Used Linux Commands: 
 - A set of essential commands for file and directory operations, file permissions, system information, text processing, package management, and process management in a Linux environment.
@@ -118,10 +128,19 @@
 - The organization of directories in a Linux-based file system, including /bin, /sbin, /etc, /dev, /proc, /var, /tmp, /usr, /home, /boot, /lib, /opt, /mnt, /media, /srv.
 
 ## Other Terms: 
+- In information technology, header refers to supplemental data placed at the beginning of a block of data being stored or transmitted.
+   - In data transmission, the data following the header is sometimes called the payload or body.
+     
 - RAft Algorithm: Raft is a consensus algorithm. It allows the members of a distributed system to agree on a sequence of values in the presence of failures.
-- 
+  
+- Utility computing, or computer utility, is a service provisioning model in which a service provider makes computing resources and infrastructure management available to the customer as needed, and charges them for specific usage rather than a flat rate.
+  
+- Infrastructure as Code (IaC) is an approach where infrastructure components (e.g., servers, networks) are defined and managed using code, allowing for automated and consistent provisioning and deployment
+  
+- PageRank (PR) is an algorithm used by Google Search to rank web pages in their search engine results
+
 - Consensus: Consensus is a general agreement on a decision made by the majority of those involved.
-- 
+ 
 - Stack Data Structure: A stack is like a stack of books. You can only add or remove books from the top. It's a way to manage data where the last item added is the first to be used.
 
 - Packets: Packets are like small packages of data. Information is broken into packets for transmission over networks, and these packets are reassembled at their destination.
@@ -270,7 +289,11 @@ Node.js (a runtime for executing JavaScript).
 - OSI Model (7 Layers): A conceptual framework for understanding network communication, divided into seven layers, including Physical, Data Link, Network, Transport, Session, Presentation, and Application layers.
 
 - DNS (Domain Name System): A system that translates domain names (e.g., www.example.com) into IP addresses for routing and connectivity.
-    
+
+- Network Packet: A network packet is a formatted unit of data carried by a packet-switched network.
+
+- Packet Switching is a method of grouping data into packets that are transmitted over a digital network.
+  
 - TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of protocols used for internet communication, with TCP managing data transfer reliability and IP handling addressing and routing.
   
 - URL (Uniform Resource Locator): A standardized web address format used to identify resources on the internet.
