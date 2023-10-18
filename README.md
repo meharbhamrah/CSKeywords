@@ -7,7 +7,10 @@
 - In computer organisation, the memory hierarchy separates computer storage into a hierarchy based on response time.
 - The BIOS (Basic Input/Output System) is firmware in a computer that initializes and manages hardware components during startup. It provides essential instructions for the operating system to take over and is responsible for tasks like booting the computer and configuring hardware settings.
 - In computing, a device driver is a computer program that operates or controls a particular type of device that is attached to a computer or automaton.
-
+- Abstraction layer - Simplified interface or set of functions that hide complex underlying details, allowing for easier interaction with a system or software component.
+  - A low-level abstraction layer in computing provides a basic and minimal interface to interact with hardware or software components, exposing more of the underlying details and requiring a deeper understanding of the system.
+- Peripheral is an auxiliary hardware device used to transfer information into and out of a computer.
+  
 ## Hardware Units: 
 - CPU (Central Processing Unit): The primary hardware component responsible for executing instructions and performing calculations in a computer.
 - GPU (Graphics Processing Unit): A specialized hardware component optimized for rendering graphics and handling parallel processing tasks.
@@ -50,6 +53,22 @@
   - LXC
 
    ![300px-Libvirt_support svg](https://github.com/meharbhamrah/CSKeywords/assets/143251459/499e056f-1272-451f-875a-f0ffdd7e511f)
+
+  - Bare-Metal Hypervisor: A hypervisor installed directly on the hardware without the need for an underlying operating system. Example: Citrix XenServer.
+  - Virtual Network: Creating virtualized network configurations to isolate and secure resources. Example: Setting up virtual networks in OpenStack.
+  - Virtual Storage: Using virtualized storage devices for managing and accessing data. Example: Mapping a virtual hard drive to a VM.
+  - Snapshot: A point-in-time copy of a virtual machine or storage, useful for backup or recovery. Example: Taking a snapshot of a VM before making changes.
+  - Live Migration: Moving a running virtual machine from one physical host to another without service interruption. Example: VMware vMotion.
+  - Resource Allocation and Overcommitment: Allocating more virtual resources (CPU, RAM) than the physical host has. Example: Assigning 8GB of RAM to multiple VMs on a host with 16GB of physical RAM.
+  - Virtual Desktop Infrastructure (VDI): Delivering desktop environments to users as virtual instances. Example: Citrix Virtual Apps and Desktops.
+  - Virtual Appliances: Preconfigured virtual machines designed for specific purposes. Example: A virtual firewall appliance.
+  - Host OS and Guest OS: The underlying operating system (host) and the operating system running in a virtual machine (guest).
+  - Virtualization Clustering: Grouping multiple servers to work together for high availability and load balancing. Example: Microsoft Failover Clustering.
+  - VMware vSphere: A suite of virtualization products for creating and managing virtualized data centers.
+  - Virtualization Backup and Recovery: Creating backups of virtualized environments and recovering from failures.
+  - Paravirtualization: A virtualization technique where the guest OS is aware of the virtualization and optimized for it.
+  - VM Sprawl: The uncontrolled growth of virtual machines, leading to inefficiency and management challenges.
+  - Nested Virtualization: Running virtual machines within virtual machines, useful for testing and development environments.
 
 ## Cloud Computing Providers: 
 - AWS (Amazon Web Services): A prominent cloud computing provider offering a wide range of cloud services, including computing, storage, and more.
@@ -221,13 +240,33 @@ Node.js (a runtime for executing JavaScript).
 ## Cloud Computing
 - IaaS, PaaS, SaaS: Different cloud service models - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
   
-- Public, Private, Hybrid Clouds: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
+- Public, Private, Hybrid Clouds, Multi Cloud: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
   
 - Virtualization Technology: Virtualization technology enables the creation of virtual instances of computer resources, allowing multiple operating systems and applications to run on a single physical machine.
 
 - Public Cloud: A public cloud is a cloud computing environment provided by a third-party service provider, offering on-demand computing resources, storage, and services over the internet.
 
+- Elasticity: Automatically increasing server capacity during a sudden traffic spike for a web application.
+
+- Resource Pooling: Sharing computing resources like CPU and memory among multiple virtual machines.
+
+- Cloud Storage: Storing files and data in the cloud. Example: Amazon S3.
+
+- Cloud Security: Encrypting data and using identity access management to secure cloud resources.
+
+- Cloud Networking: Configuring virtual networks in the cloud. Example: AWS Virtual Private Cloud (VPC).
+
 - Cloud Service Models: Cloud service models include Infrastructure as a Service (IaaS), which provides basic computing resources; Platform as a Service (PaaS), offering a platform for app development; and Software as a Service (SaaS), delivering software applications over the internet.
+
+- Microservices in cloud computing means building an application as a collection of small, separate pieces that can do their jobs on their own, like different building blocks that work together to create a bigger structure.
+  
+- Cloud Orchestration: Automating the provisioning and management of cloud resources using tools.
+
+- Cloud Automation: Automating routine cloud management tasks like backup and scaling.
+  
+- Cloud Migration: Moving an existing database to a cloud-based database service like Amazon RDS.
+  
+- Serverless Computing: Running code in response to events, e.g., using AWS Lambda.
 
 - Hybrid Cloud: A hybrid cloud combines private and public clouds, allowing data and applications to be shared between them for flexibility and control.
   
