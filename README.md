@@ -1,7 +1,8 @@
-## Desktop Computing: 
+## Computing: 
 - Computation: The process of performing calculations and operations on a computer to process data and perform tasks.
 - Storage: The capability to store and retain data, files, and information on computer systems, either locally or in the cloud.
 - Network: A collection of interconnected devices that can share resources and communicate, including LANs (Local Area Networks) and WANs (Wide Area Networks).
+- Distributed Computing: A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another
 
 ## Hardware Units: 
 - CPU (Central Processing Unit): The primary hardware component responsible for executing instructions and performing calculations in a computer.
@@ -25,11 +26,7 @@
 - Package Manager (Yum): A package management tool used in RHEL-based distributions to install, update, and manage software packages.
 - IBM's Ownership of Red Hat: IBM's acquisition of Red Hat, a significant move in the open-source and enterprise software space.
 - Cgroups: Cgroups are like fences for processes. They help manage and limit resources (like CPU and memory) for running processes in a Linux system.
-
-## Cloud Computing: 
-- IP Addresses: Unique numerical identifiers assigned to devices on a network, including Private IP Addresses for internal network use and Public IP Addresses for external communication.
-- DNS (Domain Name System): A system that translates domain names (e.g., www.example.com) into IP addresses for routing and connectivity.
-- Routing: The process of determining the best path for data to travel in a network, often based on routing protocols and network topology.
+- The Linux Foundation aims to bring together open source software professionals, developers, sysadmins, and students to advance important community and industry initiatives that increase diversity in tech and access to new technologies.
 
 ## Virtualization: 
 - Bare Metal Servers: Physical servers that run directly on hardware without an underlying host operating system.
@@ -38,6 +35,12 @@
 - VMware: A leading provider of virtualization and cloud computing software solutions.
 - KVM: KVM is like a virtual theater for computers. It's a virtualization solution for running multiple operating systems on a single host.
 - Xen: Xen is like an usher at a theater, directing performances (virtual machines). It's an open-source hypervisor for virtualization.
+- Libvert: Libvirt is a collection of software that provides a common API (Application Programming Interface) for managing popular virtualization solutions :-
+  - KVM                                                   
+  - Xen
+  - ESX
+  - LXC
+   ![300px-Libvirt_support svg](https://github.com/meharbhamrah/CSKeywords/assets/143251459/499e056f-1272-451f-875a-f0ffdd7e511f)
 
 ## Cloud Computing Providers: 
 - AWS (Amazon Web Services): A prominent cloud computing provider offering a wide range of cloud services, including computing, storage, and more.
@@ -66,6 +69,7 @@
 - Object-Oriented Programming (OOP): A programming paradigm based on the concept of objects, encapsulation, inheritance, and polymorphism to create modular and maintainable code.
 - IDE (Integrated Development Environment): Software that provides a comprehensive environment for coding, debugging, and managing software projects.
 - C, C++, Rust: Programming languages used for various applications, with C and C++ known for system-level programming and Rust for safe and concurrent programming.
+- Rust: Rust is like a new kind of tool in a toolbox. It's a modern programming language known for its safety and performance features.
 
 ## Commonly Used Linux Commands: 
 - A set of essential commands for file and directory operations, file permissions, system information, text processing, package management, and process management in a Linux environment.
@@ -110,15 +114,14 @@
 - Satoshi Nakamoto: The pseudonymous creator of Bitcoin, the first cryptocurrency.
 - ICO (Initial Coin Offering): A method of fundraising for blockchain projects, where tokens or coins are sold to investors to raise capital.
 
-## Cloud Services:
-- IaaS, PaaS, SaaS: Different cloud service models - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
-- Public, Private, Hybrid Clouds: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
-
 ## Linux Directory Structure:
 - The organization of directories in a Linux-based file system, including /bin, /sbin, /etc, /dev, /proc, /var, /tmp, /usr, /home, /boot, /lib, /opt, /mnt, /media, /srv.
 
 ## Other Terms: 
-  
+- RAft Algorithm: Raft is a consensus algorithm. It allows the members of a distributed system to agree on a sequence of values in the presence of failures.
+- 
+- Consensus: Consensus is a general agreement on a decision made by the majority of those involved.
+- 
 - Stack Data Structure: A stack is like a stack of books. You can only add or remove books from the top. It's a way to manage data where the last item added is the first to be used.
 
 - Packets: Packets are like small packages of data. Information is broken into packets for transmission over networks, and these packets are reassembled at their destination.
@@ -127,7 +130,8 @@
 
 - Scheduling: The process of managing and prioritizing tasks in a computer system to optimize resource utilization.
 
-- MERN: MERN is an abbreviation for a technology stack used in web development. It includes MongoDB (a database), Express.js (a web application framework), React (a JavaScript library for user interfaces), and Node.js (a runtime for executing JavaScript).
+- MERN: MERN is an abbreviation for a technology stack used in web development. It includes MongoDB (a database), Express.js (a web application framework), React (a JavaScript library for user interfaces), and 
+Node.js (a runtime for executing JavaScript).
 
 - DevOps: DevOps is like teamwork between developers and operations teams. It's a set of practices that aim to automate and streamline the software development and deployment process.
 
@@ -151,16 +155,11 @@
 
 - Unit Testing: Unit testing is like checking if each ingredient in a recipe is good. It's a method to test individual parts (units) of software to ensure they work correctly.
 
-- Rust: Rust is like a new kind of tool in a toolbox. It's a modern programming language known for its safety and performance features.
-
-- Linux Foundation: The Linux Foundation is like a library for open-source knowledge. It's an organization that supports and promotes open-source projects, including the Linux operating system.
-
 - Hyper-converged infrastructure (HCI): HCI is like a Swiss Army knife for data centers. It combines storage, computing, and networking into one integrated system for efficient data management.
 
 - Web Assembly (Wasm): Web Assembly is like a universal translator for web browsers. It's a binary instruction format that enables high-performance web applications across different platforms.
 
 ## Docker
-
 - Containerization Platform: Docker is like a set of digital containers for applications. It allows you to package an application and its dependencies together in a standardized container, ensuring it runs consistently across different environments.
 
 - Image Packaging: Docker uses images to package applications and their dependencies. These images are like blueprints for containers, containing everything needed to run the application. They can be easily shared and deployed.
@@ -180,7 +179,6 @@
 - Service Scaling: Docker allows you to scale services by adjusting the number of containers running an application. It's like adding more musicians to the orchestra when the performance demands it.
 
 ## Kubernetes
-
 - Orchestration Tool: Kubernetes is like a conductor for containerized applications. It automates the deployment, scaling, and management of containers, ensuring they work together harmoniously.
 
 - Container Clusters: Container clusters are like orchestras with many musicians. Kubernetes groups containers into clusters, making it easier to manage and scale applications.
@@ -202,7 +200,10 @@
 - Kubevirt: Kubevirt is like adding special instruments to an orchestra. It's a project that extends Kubernetes to manage virtual machines alongside containers.
 
 ## Cloud Computing
-
+- IaaS, PaaS, SaaS: Different cloud service models - Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+  
+- Public, Private, Hybrid Clouds: Different cloud deployment models, with public clouds available to the general public, private clouds for a single organization, and hybrid clouds combining both.
+  
 - Virtualization Technology: Virtualization technology enables the creation of virtual instances of computer resources, allowing multiple operating systems and applications to run on a single physical machine.
 
 - Public Cloud: A public cloud is a cloud computing environment provided by a third-party service provider, offering on-demand computing resources, storage, and services over the internet.
@@ -230,7 +231,6 @@
 - Hyperscalers: Hyperscalers are large cloud service providers known for their ability to scale and provide services globally.
 
 ## OpenStack Components And Services
-
 - Cloud Services: Cloud services in OpenStack offer a range of features for creating and managing cloud resources.
 
 - Identity Service: The identity service manages user authentication and access control within an OpenStack cloud.
@@ -256,7 +256,6 @@
 - Downstream: Downstream involves the deployment and customization of OpenStack in real-world use.
 
 ## Neutron (OpenStack Networking)
-
 - Subnet Management: Subnet management involves the creation of smaller address spaces within a network.
 
 - Router Configuration: Router configuration manages network traffic between different subnets.
@@ -269,7 +268,9 @@
 
 ## Networking and Protocols: 
 - OSI Model (7 Layers): A conceptual framework for understanding network communication, divided into seven layers, including Physical, Data Link, Network, Transport, Session, Presentation, and Application layers.
-  
+
+- DNS (Domain Name System): A system that translates domain names (e.g., www.example.com) into IP addresses for routing and connectivity.
+    
 - TCP/IP (Transmission Control Protocol/Internet Protocol): A suite of protocols used for internet communication, with TCP managing data transfer reliability and IP handling addressing and routing.
   
 - URL (Uniform Resource Locator): A standardized web address format used to identify resources on the internet.
