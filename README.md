@@ -422,3 +422,6 @@ Node.js (a runtime for executing JavaScript).
 - FDD
 - TDD
 - Signal Bar REPRESENTS Signal to noise ratio (SNR)
+- Spectral Efficiency
+- RAN (Radio Network Access)
+- Core Network
