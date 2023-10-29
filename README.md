@@ -398,3 +398,27 @@ Node.js (a runtime for executing JavaScript).
 - Open vSwitch: Open vSwitch is a virtual switch supporting standard network protocols in virtualized environments.
 
 - Tap: A tap captures and forwards network traffic, often used for monitoring and analysis.
+
+## 5G 
+- Transmitter
+- receiver
+- wireless signal (RF Signal) 
+- wireless channel (RF Channel)
+- Modulation
+- Demodulation
+- Attenution (transmission loss)
+- Noise
+- Interferance
+- Millimiter Wave
+- FCC
+- Bandwidth
+- Channel
+- Narrowband
+- Wideband
+- Datapipe
+- CDMA
+- Downlink
+- Uplink
+- FDD
+- TDD
+- Signal Bar REPRESENTS Signal to noise ratio (SNR)
