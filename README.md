@@ -481,5 +481,16 @@ Node.js (a runtime for executing JavaScript).
 - **Interference:** Unwanted signals or noise that disrupt the transmission and reception of data in a communication system, leading to potential data errors and reduced signal quality.
 - **Retransmissions:** The process of re-sending data that was not received correctly due to errors, often caused by interference or signal degradation.
 - **Data Rates:** The speed at which data is transmitted or received, typically measured in bits per second (bps), and a key factor in determining the efficiency and performance of a communication system.
+- **Antennas**: Devices for transmitting and receiving wireless signals.
+- **Wireless signals**: Electromagnetic waves for data transmission.
+- **Frequency channel**: Specific radio frequency range for signals.
+- **Data throughput**: Rate of data transmission/processing.
+- **Network capacity**: Maximum data handling of a network.
+- **Spectral efficiency**: Efficient spectrum use for data transmission.
+- **Encoding techniques**: Methods for data representation.
+- **Interference**: Unwanted signal overlap disrupting communication.
+- **Smart signal processing**: Algorithms for signal management.
+- **Data rates**: Speed of data transmission/reception.
+
 
 
