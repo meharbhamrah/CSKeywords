@@ -473,4 +473,13 @@ Node.js (a runtime for executing JavaScript).
 - **AMF (Access and Mobility Management Function)**: AMF provides permission and manages access for user equipment to the 5G network.
 - **SMF (Session Management Function)**: SMF handles session establishment, IP assignment, and session management in a 5G network.
 - **UPF (User Plane Function)**: UPF manages user data transmission, delivering content to the user's device.
+- **Slot-Based Framework:** A mechanism in communication systems that allows for flexible allocation of time slots or resources, enabling more efficient utilization of resources and adaptability to real-time requirements.
+- **Resource Allocation:** The process of assigning available resources, such as bandwidth or time slots, to different users or applications in a network to ensure efficient use of those resources.
+- **OFDM (Orthogonal Frequency Division Multiplexing):** A modulation technique used in wireless communication that divides a wideband channel into multiple narrowband subchannels, allowing for improved data transmission and adaptability to varying channel conditions.
+- **Channel Coding:** The addition of redundant information (metadata) to data before transmission to enhance error detection and correction, ensuring data integrity even in the presence of noise or interference.
+- **Metadata:** Additional information added to the original data to provide context or facilitate data processing. In the context of channel coding, it includes error-checking data.
+- **Interference:** Unwanted signals or noise that disrupt the transmission and reception of data in a communication system, leading to potential data errors and reduced signal quality.
+- **Retransmissions:** The process of re-sending data that was not received correctly due to errors, often caused by interference or signal degradation.
+- **Data Rates:** The speed at which data is transmitted or received, typically measured in bits per second (bps), and a key factor in determining the efficiency and performance of a communication system.
+
 
