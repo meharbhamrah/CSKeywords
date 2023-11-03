@@ -425,3 +425,21 @@ Node.js (a runtime for executing JavaScript).
 - Spectral Efficiency
 - RAN (Radio Network Access)
 - Core Network
+- Analog Modulation
+- Digital Voice
+- **User-Generated Content:** Content generated and shared by end-users, often in the form of multimedia, such as videos, images, or posts on social media platforms.
+- **Congested Environments:** Locations characterized by a high density of connected devices and users, leading to network congestion, where data transfer rates may be adversely affected.
+- **High-Speed Train:** Refers to trains that move at high speeds, emphasizing the need for uninterrupted, high-speed internet connectivity, even when traveling on such rapid transit.
+- **Cloud Computing:** The practice of storing, managing, and accessing data and software applications over the internet, offering scalability and flexibility for users and organizations.
+- **Low Latency:** A minimal delay in data transmission, ensuring that data is transmitted rapidly, essential for real-time applications such as online gaming and interactive content.
+- **Virtual Reality (VR):** A technology that creates immersive, computer-generated environments, requiring high data throughput and low latency to provide a seamless and immersive experience.
+- **Augmented Reality (AR):** The overlay of digital information onto the real-world environment, necessitating real-time data processing for seamless integration of virtual and physical elements.
+- **Connected Vehicles:** Automobiles equipped with advanced technology for communication with other vehicles and infrastructure, enabling features like real-time traffic updates and autonomous driving.
+- **Software Updates:** The process of downloading and installing software enhancements or fixes, often to improve functionality, security, or compatibility.
+- **Map Updates:** Real-time updates to navigation maps to ensure accurate and current information for route planning and location-based services.
+- **Network Capacity:** The ability of a network to handle a high volume of users and data traffic concurrently without degradation in performance.
+- **Real-Time Experience:** Applications and services that provide instant responses and minimal delays in data processing, crucial for interactive experiences, such as video conferencing and online gaming.
+- **LTE (Long-Term Evolution):** A standard for wireless communication that offers improved data transfer rates and network performance compared to earlier technologies.
+- **5G Technology:** The fifth generation of cellular technology designed to deliver significantly higher data speeds, lower latency, and increased network capacity, enabling advanced applications, including the Internet of Things (IoT) and augmented reality.
+- **Next-Generation Mobile Experiences:** Enhanced and advanced mobile services made possible by 5G technology, offering high-speed data, low latency, and support for emerging applications and technologies.
+
