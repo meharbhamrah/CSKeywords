@@ -442,4 +442,4 @@ Node.js (a runtime for executing JavaScript).
 - **LTE (Long-Term Evolution):** A standard for wireless communication that offers improved data transfer rates and network performance compared to earlier technologies.
 - **5G Technology:** The fifth generation of cellular technology designed to deliver significantly higher data speeds, lower latency, and increased network capacity, enabling advanced applications, including the Internet of Things (IoT) and augmented reality.
 - **Next-Generation Mobile Experiences:** Enhanced and advanced mobile services made possible by 5G technology, offering high-speed data, low latency, and support for emerging applications and technologies.
-
+- **Fallback Mechanisms:** In software and hardware systems, fallback mechanisms are used to provide alternative courses of action when a primary function or component encounters issues.
