@@ -443,3 +443,34 @@ Node.js (a runtime for executing JavaScript).
 - **5G Technology:** The fifth generation of cellular technology designed to deliver significantly higher data speeds, lower latency, and increased network capacity, enabling advanced applications, including the Internet of Things (IoT) and augmented reality.
 - **Next-Generation Mobile Experiences:** Enhanced and advanced mobile services made possible by 5G technology, offering high-speed data, low latency, and support for emerging applications and technologies.
 - **Fallback Mechanisms:** In software and hardware systems, fallback mechanisms are used to provide alternative courses of action when a primary function or component encounters issues.
+- ## 5G Network Architecture
+
+- **UE (User Equipment)**: User Equipment refers to devices like smartphones, tablets, and IoT devices connected to the 5G network.
+
+- **5G RAN (Radio Access Network)**: The 5G Radio Access Network facilitates wireless communication between User Equipment (UE) and the 5G core network. It comprises gNode-Bs (base stations).
+
+- **5G Core Network (NGC - Next Generation Core)**: The core network in a 5G system responsible for managing and routing data within the network. It consists of various components, including AMF, SMF, and UPF.
+
+- **gNode-B**: The next-generation base station is known as gNode-B, serving as the wireless interface between User Equipment and the 5G network.
+
+## Deployment Options: Standalone (SA) and Non-Standalone (NSA)
+
+- **Standalone 5G Network (SA)**: A fully independent 5G network comprising 5G RAN, core network, and User Equipment. This is the long-term goal for network operators.
+
+- **Non-Standalone 5G Network (NSA)**: An intermediate solution where 5G RAN is selectively deployed alongside existing 4G networks. Dual connectivity-capable phones allow users to benefit from both 4G and 5G coverage.
+
+- **Dual Connectivity (DC)**: DC-capable phones can establish two simultaneous channels, one with 4G and one with 5G base stations, enabling higher throughput and addressing capacity challenges.
+
+## Key Techniques for 5G Performance
+- **Massive MIMO (Multiple Input Multiple Output)**: Massive MIMO is a technology that uses a large number of antennas at the base station to enhance capacity, speed, and spectral efficiency of wireless communication.
+- **Beamforming**: Beamforming focuses radio signals in specific directions, enhancing signal quality, coverage, and capacity.
+- **Edge Computing**: This technology processes data closer to the source (e.g., IoT devices), reducing latency and improving real-time communication.
+- **Network Slicing**: Network slicing enables network operators to create separate virtual networks within the physical infrastructure to cater to different service requirements efficiently.
+- **Millimeter-Wave (mmWave)**: Millimeter-wave spectrum offers high bandwidth for fast data transmission but has shorter propagation distances, making it suitable for specific use cases.
+- **Small Cells**: Small cells are low-power base stations that enhance coverage and capacity in areas with high user density.
+- **IoT (Internet of Things)**: IoT refers to a network of interconnected devices and objects that can transmit data, enabling applications ranging from smart homes to industrial automation.
+- **URLLC (Ultra-Reliable Low Latency Communication)**: URLLC services offer highly reliable and low-latency communication for applications like mission-critical services, remote healthcare, and real-time manufacturing.
+- **AMF (Access and Mobility Management Function)**: AMF provides permission and manages access for user equipment to the 5G network.
+- **SMF (Session Management Function)**: SMF handles session establishment, IP assignment, and session management in a 5G network.
+- **UPF (User Plane Function)**: UPF manages user data transmission, delivering content to the user's device.
+
