@@ -1,4 +1,4 @@
-## Computing: 
+ ## Computing: 
 - Computation: The process of performing calculations and operations on a computer to process data and perform tasks.
 - Storage: The capability to store and retain data, files, and information on computer systems, either locally or in the cloud.
 - Network: A collection of interconnected devices that can share resources and communicate, including LANs (Local Area Networks) and WANs (Wide Area Networks).
