@@ -443,22 +443,16 @@ Node.js (a runtime for executing JavaScript).
 - **5G Technology:** The fifth generation of cellular technology designed to deliver significantly higher data speeds, lower latency, and increased network capacity, enabling advanced applications, including the Internet of Things (IoT) and augmented reality.
 - **Next-Generation Mobile Experiences:** Enhanced and advanced mobile services made possible by 5G technology, offering high-speed data, low latency, and support for emerging applications and technologies.
 - **Fallback Mechanisms:** In software and hardware systems, fallback mechanisms are used to provide alternative courses of action when a primary function or component encounters issues.
+
 - ## 5G Network Architecture
-
 - **UE (User Equipment)**: User Equipment refers to devices like smartphones, tablets, and IoT devices connected to the 5G network.
-
 - **5G RAN (Radio Access Network)**: The 5G Radio Access Network facilitates wireless communication between User Equipment (UE) and the 5G core network. It comprises gNode-Bs (base stations).
-
 - **5G Core Network (NGC - Next Generation Core)**: The core network in a 5G system responsible for managing and routing data within the network. It consists of various components, including AMF, SMF, and UPF.
-
 - **gNode-B**: The next-generation base station is known as gNode-B, serving as the wireless interface between User Equipment and the 5G network.
 
 ## Deployment Options: Standalone (SA) and Non-Standalone (NSA)
-
 - **Standalone 5G Network (SA)**: A fully independent 5G network comprising 5G RAN, core network, and User Equipment. This is the long-term goal for network operators.
-
 - **Non-Standalone 5G Network (NSA)**: An intermediate solution where 5G RAN is selectively deployed alongside existing 4G networks. Dual connectivity-capable phones allow users to benefit from both 4G and 5G coverage.
-
 - **Dual Connectivity (DC)**: DC-capable phones can establish two simultaneous channels, one with 4G and one with 5G base stations, enabling higher throughput and addressing capacity challenges.
 
 ## Key Techniques for 5G Performance
@@ -499,6 +493,16 @@ Node.js (a runtime for executing JavaScript).
 - **Communication Systems**: Complex networks and technologies used for transmitting and receiving data. In the context of millimeter wave, it involves the systems that harness these high-frequency signals.
 - **Wavelength**: The distance between two consecutive points in a wave. In the millimeter wave frequency range, shorter wavelengths are a defining characteristic, leading to unique propagation characteristics.
 - **Mobile Millimeter Wave**: A technology that operates in the millimeter wave frequency range for mobile communication. It aims to leverage high-frequency bands for faster data rates and increased network capacity.
+- **Network Architecture Principles**: Fundamental design guidelines defining the structure and operation of 5G networks.
+- **Independence of Software from Hardware**: The separation of software and hardware components within the network architecture for improved flexibility and scalability.
+- **Separation of Compute and Storage Resources**: Decoupling of network compute servers (for high-power computations) from storage resources, enhancing redundancy and resilience.
+- **Separation of User Plane and Control Plane**: Isolating application data (user plane) from background signaling (control plane), providing flexibility and scalability.
+- **Logical Subsets of Network Components**: Network slices, which are subsets of available network resources customized for specific applications.
+- **Resource Allocation**: The process of assigning network resources within a slice to meet the specific requirements of an application.
+- **Redundancy and Resiliency**: Ensuring network reliability by separating compute and storage resources, preventing single points of failure.
+- **Flexible Subscription Models**: The ability to offer customized network services to customers based on their requirements.
+- **Application Requirements**: Diverse needs of applications, including eMBB, IoT, and URLLC, in terms of latency, connection density, and throughput.
+- **Background Signaling**: The underlying network processes and communication required to set up and manage user plane data sessions.
 
 
 
