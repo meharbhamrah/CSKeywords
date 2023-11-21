@@ -85,6 +85,9 @@
 - DID - Digital Identity: DID is like a digital ID card that you carry online. It's a way to securely prove who you are in the digital world.
 - Zero Knowledge: Zero knowledge is like proving you have the answer without revealing the answer itself. It's a cryptographic technique for secure authentication.
 - Firewall: A network security device or software that filters and controls incoming and outgoing network traffic to protect a network from unauthorized access and threats.
+- Encryption at Rest - refers to the encryption applied to the stored data.
+- Encryption in Transit - refers to encrypting data that is transferred between two nodes of the network.
+- End-to-End Encryption - refers to the combination of the encryption at rest and encryption in transit.
 
 ## Computer Architecture: 
 - Von Neumann vs. Harvard Architecture: Two distinct computer architectural models, with Von Neumann using a unified memory space for data and instructions and Harvard using separate memory spaces for instructions and data.
