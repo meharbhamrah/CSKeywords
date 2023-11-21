@@ -504,7 +504,9 @@ Node.js (a runtime for executing JavaScript).
 - **Application Requirements**: Diverse needs of applications, including eMBB, IoT, and URLLC, in terms of latency, connection density, and throughput.
 - **Background Signaling**: The underlying network processes and communication required to set up and manage user plane data sessions.
 
-
+- ## AWS
+- **Anamoly Detection** (identification of rare events, items, or observations which are suspicious because they differ significantly from standard behaviors)
+- **Amazon Cloudwatch
 
 
 
