@@ -10,8 +10,6 @@
 - Abstraction layer - Simplified interface or set of functions that hide complex underlying details, allowing for easier interaction with a system or software component.
   - A low-level abstraction layer in computing provides a basic and minimal interface to interact with hardware or software components, exposing more of the underlying details and requiring a deeper understanding of the system.
 - Peripheral is an auxiliary hardware device used to transfer information into and out of a computer.
-  
-## Hardware Units: 
 - CPU (Central Processing Unit): The primary hardware component responsible for executing instructions and performing calculations in a computer.
 - GPU (Graphics Processing Unit): A specialized hardware component optimized for rendering graphics and handling parallel processing tasks.
 - DPU (Data Processing Unit): Hardware designed for accelerating data processing tasks, including data compression and encryption.
@@ -506,7 +504,7 @@ Node.js (a runtime for executing JavaScript).
 
 - ## AWS
 - **Anamoly Detection** (identification of rare events, items, or observations which are suspicious because they differ significantly from standard behaviors)
-- **Amazon Cloudwatch
-
+- **Amazon Cloudwatch** ( monitor your complete stack (applications, infrastructure, network, and services) and use alarms, logs, and events data to take automated actions and reduce mean time to resolution (MTTR))
+- **MTTR** (average time it takes to repair a system)
 
 
